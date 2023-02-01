@@ -2,6 +2,12 @@ header {
     background-color: #191919;
     color: white;
 }
+header .h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
 .bg-mia {
   background-color: #191919;
 }
@@ -76,4 +82,7 @@ h2{
 footer .list-unstyled a {
     text-decoration: none;
     color: #fff;
+}
+.dark-grey {
+color: #333;
 }
