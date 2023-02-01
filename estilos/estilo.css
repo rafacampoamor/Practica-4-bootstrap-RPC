@@ -13,7 +13,7 @@ header .h1{
 	height: 100%;
 }
 body {
-    margin-top: 90px; /* Altura del header */
+    padding-top: 106px; /* Altura del header */
 }
 .bg-mia {
   background-color: #191919;
