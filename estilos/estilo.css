@@ -93,3 +93,23 @@ footer .list-unstyled a {
 .dark-grey {
 color: #333;
 }
+.img-thumbnail {
+  height: 90px;
+  width: auto;
+}
+#tecnologia .carousel-control-prev,
+#tecnologia .carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: -22px;
+  color: #191919;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.6s;
+  border-radius: 0;
+}
