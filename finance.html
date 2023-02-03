@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evil Corp - Innovando para el futuro</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="">
+    <link rel="apple-touch-icon" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/android-chrome-512x512.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-sm d-flex justify-content-between" style="background-color: #191919"
+            data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <a href="./index.html">
+                        <img src="./img/logo.png" alt="logo" height="90px">
+                    </a>
+                </a>
+                <h1 class="text-center d-none d-lg-block mx-3">Innovando para el futuro</h1>
+                <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="acercade.html">Acerca de</a>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown">Servicios</a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item" href="tech.html">Tecnologia</a></li>
+                                    <li><a class="dropdown-item" href="consultoria.html">Consultoría</a></li>
+                                    <li><a class="dropdown-item" href="finance.html">Servicios financieros</a></li>
+                                    <li><a class="dropdown-item" href="#">Ciberseguridad</a></li>
+                                    <li><a class="dropdown-item" href="#">Energía</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Noticias</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO -->
+    <!-- Servicios Financieros -->
+    <section id="tecnologia" class="bg-light">
+        <div class="para" style="background-image: url(./img/slide1.jpg);">
+            <div class="para-overlay"></div>
+            <h1 class="para-title">Servicios Financieros</h1>
+        </div>
+
+
+        <!-- ¿Y si añadimos un Parallax en el título?-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Integración de tecnología bancaria</h5>
+                            <p class="card-text">Evil Corp ofrece soluciones de integración de tecnología bancaria para
+                                empresas, mejorando la eficiencia y agilidad en sus procesos financieros.</p>
+                            <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Análisis de riesgos financieros</h5>
+                            <p class="card-text">Evil Corp brinda servicios de análisis de riesgos financieros a través
+                                de la utilización de inteligencia artificial y análisis de datos para ayudar a las
+                                empresas a tomar decisiones informadas en cuanto a sus finanzas.</p>
+                            <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Proyectos punteros-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="text-center">Proyectos punteros</h3>
+                    <hr class="divider">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card mb-3 h-100">
+                        <img src="./img/finance-money-debt-credit-balance-concept.jpg" class="card-img-top"
+                            alt="Optimización de Procesos Logísticos">
+                        <div class="card-body">
+                            <h5 class="card-title">Integración de sistemas financieros</h5>
+                            <p class="card-text">Evil Corp ofrece soluciones de integración de sistemas financieros para
+                                empresas, mejorando la eficiencia y la transparencia en sus procesos financieros.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-3 h-100">
+                        <img src="./img/grandparent-learning-to-use-technology.jpg" class="card-img-top"
+                            alt="Transformación digital">
+                        <div class="card-body">
+                            <h5 class="card-title">Pagos en línea seguros</h5>
+                            <p class="card-text">Evil Corp brinda soluciones de pagos en línea seguras para empresas,
+                                permitiéndoles realizar transacciones financieras de manera eficiente y segura en línea.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-3 h-100">
+                        <img src="./img/team-of-stockbrokers-are-having-conversation-in-dark-office-with-display-screens-analyzing-data-graphs-and-reports-for-investment-purposes-creative-teamwork-traders.jpg"
+                            class="card-img-top" alt="Análisis predictivo">
+                        <div class="card-body">
+                            <h5 class="card-title">Análisis de datos para la toma de decisiones</h5>
+                            <p class="card-text">EEvil Corp ayuda a las empresas a mejorar sus decisiones estratégicas a
+                                través del análisis de datos, brindándoles una visión detallada de su desempeño
+                                financiero.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-3 h-100">
+                        <img src="./img/ecoin_nycc_splash_1700x600_v2.jpg" class="card-img-top"
+                            alt="Desarrollo de aplicaciones móviles">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Coin</h5>
+                            <p class="card-text">E Coin, nuestra criptomoneda con valor igual al dólar. Ofrece pagos
+                                rápidos, pagos móviles y otros servicios. E Coin es una forma segura y eficiente de
+                                realizar transacciones en el mercado de criptomonedas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Casos de Exito-->
+
+                <div class="container my-5" style="padding-bottom: 0px;">
+                    <h2 class="text-center mb-5">Casos de Éxito</h2>
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="text-shadow:none;height: auto;">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Innovación financiera para TechMoney Solutions</h5>
+                                        <p class="card-text">"Nosotros en TechMoney Solutions siempre estamos buscando
+                                            maneras de mejorar nuestra oferta financiera para nuestros clientes. Con
+                                            Evil Corp, hemos encontrado una solución innovadora que nos permite ofrecer
+                                            un servicio más eficiente y de mejor calidad. Estamos muy satisfechos con el
+                                            rendimiento y la colaboración con Evil Corp."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="text-shadow:none;height: auto;">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Maximización de ingresos para CashFlow Masters
+                                        </h5>
+                                        <p class="card-text">"Como líderes en la optimización de flujos de efectivo, en
+                                            CashFlow Masters, estamos siempre buscando nuevas maneras de mejorar
+                                            nuestros procesos. Evil Corp ha sido una adición valiosa a nuestro equipo,
+                                            permitiéndonos maximizar nuestros ingresos de manera más eficiente y
+                                            efectiva. ¡Estamos encantados con los resultados!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="text-shadow:none;height: auto;">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Transformación digital para SmartBanking Corp</h5>
+                                        <p class="card-text">"En SmartBanking Corp. nos enorgullece ser una de las
+                                            empresas pioneras en la transformación digital de la banca. Evil Corp ha
+                                            sido un socio clave en este proceso, brindándonos soluciones avanzadas que
+                                            nos permiten ofrecer un servicio más rápido, seguro y eficiente a nuestros
+                                            clientes. ¡La transformación digital nunca ha sido más fácil!"
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Efficiency FinTech</h5>
+                            <p class="card-text text-center">"En Efficiency FinTech, nuestra misión es ofrecer
+                                soluciones financieras eficientes a nuestros clientes. Con Evil Corp, hemos encontrado
+                                una solución que nos permite optimizar nuestros procesos financieros, mejorando la
+                                calidad de nuestro servicio y aumentando nuestra productividad. ¡Evil Corp ha sido una
+                                adición valiosa a nuestro equipo!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">SafePay Solutions</h5>
+                            <p class="card-text text-center">"En SafePay Solutions, la seguridad y la rapidez en los
+                                pagos son nuestra prioridad número uno. Evil Corp ha demostrado ser un socio confiable y
+                                efectivo, brindándonos soluciones avanzadas en seguridad y procesamiento de pagos que
+                                nos permiten ofrecer un servicio excepcional a nuestros clientes. ¡Estamos muy contentos
+                                con nuestra colaboración con Evil Corp!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">DataWise Finance</h5>
+                            <p class="card-text text-center">"En DataWise Finance, la precisión en el análisis
+                                financiero es fundamental para ofrecer soluciones eficientes a nuestros clientes. Con
+                                Evil Corp, hemos encontrado un aliado confiable que nos brinda información precisa y en
+                                tiempo real, lo que ha permitido tomar decisiones más informadas y mejorar
+                                significativamente nuestros resultados financieros. ¡Gracias Evil Corp por ser parte de
+                                nuestro éxito!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Equipo-->
+        <div class="container bg-light">
+            <h2 class="text-center mb-5">Experiencia y capacidad técnica del equipo</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mb-3">
+                        <h5>Paula Johnson</h5>
+                        <h6 class="mb-2 text-muted">Directora de Desarrollo de Productos</h6>
+                        <p>La Sra. Johnson es una experta en desarrollo de productos con más de 15 años de experiencia
+                            en la industria financiera. Con un enfoque en la innovación y la colaboración, ha liderado
+                            el lanzamiento de numerosos productos financieros de éxito en Evil Corp. Su capacidad para
+                            entender las necesidades de los clientes y su habilidad para trabajar con un equipo son
+                            valores clave que han contribuido a su éxito.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mb-3">
+                        <h5>James Walker</h5>
+                        <h6 class="mb-2 text-muted">Director de Integración de Sistemas</h6>
+                        <p>James es un líder en integración de sistemas con más de 10 años de experiencia en la
+                            industria. Con una amplia experiencia en la integración de sistemas, ha liderado proyectos
+                            clave para Evil Corp y ha ayudado a los clientes a mejorar la eficiencia y la eficacia en
+                            sus operaciones. Su capacidad para trabajar en un equipo y su enfoque en la solución de
+                            problemas son habilidades valiosas para el éxito de los proyectos.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mb-3">
+                        <h5>Tyrell Wellick</h5>
+                        <h6 class="mb-2 text-muted">Senior Vice President of Technology</h6>
+                        <p>Tyrell comenzó su carrera en E Corp como un técnico altamente capacitado, ascendiendo en las
+                            filas del
+                            conglomerado y eventualmente ganando el puesto de Vicepresidente Senior de Tecnología. Se
+                            desempeñó como
+                            la ambiciosa mano derecha del Director de Tecnología (CTO)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER-->
+    <footer class="bg-mia text-white py-3" style="background-color: #191919" data-bs-theme="dark">
+        <div class="container" style="background-color: #191919" data-bs-theme="dark">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="mb-3">Información</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="acercade.html">Acerca de</a></li>
+                        <li><a class="text-white" href="#">Política de privacidad</a></li>
+                        <li><a class="text-white" href="#">Términos y condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="mb-3">Servicios</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="tech.html">Tecnología</a></li>
+                        <li><a class="text-white" href="consultoria.html">Consultoría</a></li>
+                        <li><a class="text-white" href="finance.html">Servicios financieros</a></li>
+                        <li><a class="text-white" href="#">Ciberseguridad</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="mb-3">Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#">Email</a></li>
+                        <li><a class="text-white" href="#">Teléfono</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="mb-3">Síguenos</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#">Facebook</a></li>
+                        <li><a class="text-white" href="#">Twitter</a></li>
+                        <li><a class="text-white" href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="hr-light">
+            <p class="text-center mb-0">&copy; Evil Corp</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
