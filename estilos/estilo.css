@@ -165,7 +165,7 @@ footer .list-unstyled a {
 }
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
     width: 50%;
   }
